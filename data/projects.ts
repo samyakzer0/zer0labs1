@@ -75,20 +75,24 @@ export const projectsData: Project[] = [
   },
   {
     id: 4,
-    title: 'PORTFOLIO WEBSITE',
-    category: 'PERSONAL BRAND',
-    tags: ['React', 'Framer Motion', 'Tailwind CSS'],
+    title: 'INTERACTIVE PORTFOLIO',
+    category: 'PERSONAL PORTFOLIO',
+    tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
     url: '#',
     previewImage: '#',
-    aim: 'Design and develop a clean, professional portfolio website that effectively communicates skills and experience while maintaining a balance between aesthetics and functionality.',
-    description: 'A sleek portfolio website with emphasis on readability and user experience. Features smooth animations, clear content hierarchy, and strategic use of white space to guide visitors through the content naturally.',
+    aim: 'Build a modern, interactive personal portfolio website featuring dynamic project showcases, animated tech stack displays, and engaging user interactions to create a memorable impression on potential employers and clients.',
+    description: 'An interactive portfolio website featuring a minimal yet striking design. The site showcases projects through expandable modal cards with smooth Framer Motion animations, displays technical skills with a custom GSAP-powered infinite scroll component, and presents professional information through an about section with bio, skills metrics, and profile imagery. Built with modern web technologies for optimal performance and user experience.',
     features: [
-      'Clean, minimal design with strategic animations',
-      'Project filtering and categorization',
-      'Blog section for sharing insights and experiences',
-      'Skills visualization with interactive elements',
-      'Testimonials section with carousel',
-      'Newsletter subscription integration'
+      'Interactive project cards with expand-to-modal functionality using Framer Motion',
+      'Smooth entrance and modal transition animations',
+      'Project modals containing detailed information, tech stack, demo links, and GitHub actions',
+      'Custom InfiniteScroll component with GSAP and Observer API for tech stack display',
+      'Three-column auto-scrolling technology showcase with draggable wheel/touch interactions',
+      'About section featuring bio, skills, performance metrics, and profile image',
+      'Mobile-optimized scroll interactions preventing scroll-hijacking',
+      'Extensible architecture allowing easy project additions through data arrays',
+      'Responsive design with touch-action and overscroll-behavior optimizations',
+      'Clean, minimal aesthetic with focus on content and interactivity'
     ]
   }
 ];
