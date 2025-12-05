@@ -35,7 +35,6 @@ const App: React.FC = () => {
   if (currentProject) {
     return (
       <div className="relative w-full min-h-screen bg-black text-white selection:bg-cyan-500/30">
-        <Navbar />
         <CaseStudy
           title={currentProject.title}
           category={currentProject.category}

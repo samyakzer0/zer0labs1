@@ -1,25 +1,25 @@
 import React from 'react';
 import { SectionTitle } from './SectionTitle';
-import { Box, Layers, Cpu, Code, PenTool, Database } from 'lucide-react';
+import { Rocket, Layout, Briefcase, Code } from 'lucide-react';
 
 const services = [
   { 
+    icon: <Layout className="w-6 h-6" />, 
+    title: 'WEB SOLUTIONS', 
+    desc: 'Professional web development services tailored to your needs. From landing pages to complete portfolio websites.',
+    items: ['Landing Pages', 'Portfolio Websites', 'Hero Sections', 'Responsive Design']
+  },
+  { 
+    icon: <Rocket className="w-6 h-6" />, 
+    title: 'PRODUCT DEVELOPMENT', 
+    desc: 'Transform your ideas into reality. We build MVPs and full-featured products with modern technologies.',
+    items: ['MVP Development', 'Product Design', 'User Testing', 'Iterative Development']
+  },
+  { 
     icon: <Code className="w-6 h-6" />, 
-    title: 'DEVELOPMENT', 
-    desc: 'Full-stack engineering with a focus on performance and scalability. We build robust applications that deliver results.',
-    items: ['React / Next.js', 'Node.js / Python', 'Mobile Apps', 'API Development']
-  },
-  { 
-    icon: <PenTool className="w-6 h-6" />, 
-    title: 'DESIGN', 
-    desc: 'Modern UI/UX design focused on user experience. We create beautiful interfaces that users love to interact with.',
-    items: ['Interface Design', 'User Experience', 'Motion Design', 'Design Systems']
-  },
-  { 
-    icon: <Cpu className="w-6 h-6" />, 
-    title: 'STRATEGY', 
-    desc: 'Strategic planning and consulting services. We help you define your technical roadmap and achieve your business goals.',
-    items: ['Technical Consulting', 'Product Strategy', 'AI Integration', 'System Architecture']
+    title: 'COLLEGE PROJECTS', 
+    desc: 'End-to-end development for college side projects. From concept to deployment, we help bring your academic projects to life.',
+    items: ['Full-Stack Development', 'Project Planning', 'Documentation', 'Deployment Support']
   },
 ];
 

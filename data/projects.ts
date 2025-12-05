@@ -16,8 +16,8 @@ export const projectsData: Project[] = [
     title: 'THE CHAI HOUSE',
     category: 'FRONTEND DEVELOPMENT',
     tags: ['React', 'Framer Motion', 'Tailwind CSS'],
-    url: '#',
-    previewImage: '#',
+    url: 'https://thechaihouse.vercel.app/',
+    previewImage: '/preview/1.png',
     aim: 'Design and develop an intuitive, visually appealing frontend interface for a chai (tea) cafe that provides seamless user experience for browsing menus, customizing orders, and tracking order status in real-time.',
     description: 'The Chai House frontend is a modern, responsive web interface designed for a chai cafe. Built with React and enhanced with smooth animations using Framer Motion, the application provides customers with an engaging platform to browse menu items organized by categories, customize their orders with various preferences like sugar level and milk type, place orders for dine-in or takeaway, and track their order status. The interface also includes an admin dashboard for managing menu items, orders, promotions, and viewing analytics.',
     features: [
@@ -38,8 +38,8 @@ export const projectsData: Project[] = [
     title: 'ABHISHEK THAKUR PORTFOLIO',
     category: 'PROFESSIONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
-    url: '#',
-    previewImage: '#',
+    url: 'https://abhishek-trainer.vercel.app/',
+    previewImage: '/preview/2.png',
     aim: 'Create a modern, production-ready portfolio website for a Communication Skills Trainer that showcases services, impact metrics, testimonials, and professional credentials while providing seamless contact and lead capture functionality.',
     description: 'A polished portfolio website built for Abhishek Thakur, a Communication Skills Trainer. The site presents his professional identity through an interactive interface featuring motion-based animations, service showcases, animated statistics demonstrating measurable outcomes, and social proof through testimonials. Designed to convert prospective students, corporate clients, and academic institutions with clear CTAs and frictionless contact options.',
     features: [
@@ -60,8 +60,8 @@ export const projectsData: Project[] = [
     title: 'NEOBRUTALISM LIBRARY',
     category: 'COMPONENT LIBRARY',
     tags: ['TypeScript', 'React', 'Tailwind CSS'],
-    url: '#',
-    previewImage: '#',
+    url: 'https://boxes-omega.vercel.app/',
+    previewImage: '/preview/3.png',
     aim: 'Develop a comprehensive, type-safe component library following neobrutalism design principles, making it easy for developers to build bold, distinctive user interfaces.',
     description: 'A complete component library embracing the neobrutalism design aesthetic with bold colors, thick borders, and stark contrasts. Built with TypeScript for type safety and fully customizable through Tailwind CSS utilities.',
     features: [
@@ -78,8 +78,8 @@ export const projectsData: Project[] = [
     title: 'INTERACTIVE PORTFOLIO',
     category: 'PERSONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
-    url: '#',
-    previewImage: '#',
+    url: 'https://samyak-ai-portfolio.vercel.app/',
+    previewImage: '/preview/4.png',
     aim: 'Build a modern, interactive personal portfolio website featuring dynamic project showcases, animated tech stack displays, and engaging user interactions to create a memorable impression on potential employers and clients.',
     description: 'An interactive portfolio website featuring a minimal yet striking design. The site showcases projects through expandable modal cards with smooth Framer Motion animations, displays technical skills with a custom GSAP-powered infinite scroll component, and presents professional information through an about section with bio, skills metrics, and profile imagery. Built with modern web technologies for optimal performance and user experience.',
     features: [

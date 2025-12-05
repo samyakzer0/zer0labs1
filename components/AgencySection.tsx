@@ -10,7 +10,7 @@ export const AgencySection: React.FC = () => {
         </div>
 
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 font-mono leading-relaxed mb-8 sm:mb-12 px-4">
-          "We believe in pushing boundaries and delivering exceptional digital experiences that make a difference."
+          "Create. Ship. Repeat. No Extras No Less."
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 text-left">
