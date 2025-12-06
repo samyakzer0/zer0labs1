@@ -1,4 +1,4 @@
-import React, { Suspense, useRef, useState } from 'react';
+import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, Environment } from '@react-three/drei';
 import { Model3D } from './Model3D';
@@ -26,36 +26,12 @@ export const Model3DCanvas: React.FC<Model3DCanvasProps> = ({
   ambientIntensity = 0.5,
   enableLighting = true,
 }) => {
-  const [isDragging, setIsDragging] = useState(false);
-  const canvasRef = useRef<HTMLDivElement>(null);
-
-  const handlePointerDown = (e: React.PointerEvent) => {
-    setIsDragging(true);
-  };
-
-  const handlePointerUp = () => {
-    setIsDragging(false);
-  };
-
   return (
-    <div 
-      ref={canvasRef}
-      className="absolute inset-0"
-      style={{ 
-        pointerEvents: isDragging ? 'auto' : 'none',
-      }}
-      onPointerDown={handlePointerDown}
-      onPointerUp={handlePointerUp}
-      onPointerLeave={handlePointerUp}
-    >
+    <div className="absolute inset-0 pointer-events-auto">
       <Canvas
         className="w-full h-full"
         gl={{ alpha: true, antialias: true }}
         dpr={[1, 2]}
-        style={{ 
-          pointerEvents: 'auto',
-          touchAction: 'none',
-        }}
       >
         <PerspectiveCamera makeDefault position={cameraPosition} fov={50} />
         
@@ -91,9 +67,6 @@ export const Model3DCanvas: React.FC<Model3DCanvasProps> = ({
             minDistance={2}
             maxDistance={10}
             autoRotate={false}
-            makeDefault
-            minPolarAngle={0}
-            maxPolarAngle={Math.PI / 2}
           />
         )}
       </Canvas>
