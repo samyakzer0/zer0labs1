@@ -11,10 +11,10 @@ export const HeroSection: React.FC = () => {
           enableControls={false}
           autoRotate={true}
           rotationSpeed={0.001}
-          cameraPosition={[5, 5, 5]}
-          modelScale={0.6}
-          modelPosition={[0, 0, 0]}
-          ambientIntensity={0.6}
+          cameraPosition={[0, 1, 4]}
+          modelScale={0.4}
+          modelPosition={[0, -0.5, 0]}
+          ambientIntensity={0.8}
           enableLighting={true}
         />
       </div>

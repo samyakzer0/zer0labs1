@@ -9,7 +9,7 @@ interface WorkSectionProps {
 
 export const WorkSection: React.FC<WorkSectionProps> = ({ onProjectClick }) => {
   return (
-    <section id="work" className="relative min-h-screen py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 bg-black/80 backdrop-blur-sm border-t border-white/10">
+    <section id="work" className="relative min-h-screen py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-24 bg-black/80 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto">
         <SectionTitle title="PORTFOLIO" subtitle="OUR WORK" />
 

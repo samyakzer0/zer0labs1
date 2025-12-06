@@ -33,7 +33,7 @@ export const Model3DCanvas: React.FC<Model3DCanvasProps> = ({
         gl={{ alpha: true, antialias: true }}
         dpr={[1, 2]}
       >
-        <PerspectiveCamera makeDefault position={cameraPosition} fov={50} />
+        <PerspectiveCamera makeDefault position={cameraPosition} fov={45} />
         
         {/* Lighting */}
         {enableLighting && (
