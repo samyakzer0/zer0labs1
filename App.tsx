@@ -6,6 +6,7 @@ import { ServicesSection } from './components/ServicesSection';
 import { AgencySection } from './components/AgencySection';
 import { ContactSection } from './components/ContactSection';
 import { CaseStudy } from './components/CaseStudy';
+import { SmoothCursor } from './components/SmoothCursor';
 import { projectsData } from './data/projects';
 import './types'; // Import global types
 
@@ -35,6 +36,7 @@ const App: React.FC = () => {
   if (currentProject) {
     return (
       <div className="relative w-full min-h-screen bg-black text-white selection:bg-cyan-500/30">
+        <SmoothCursor />
         <CaseStudy
           title={currentProject.title}
           category={currentProject.category}
@@ -52,6 +54,7 @@ const App: React.FC = () => {
 
   return (
     <div className="relative w-full min-h-screen bg-black text-white selection:bg-cyan-500/30" style={{ scrollBehavior: 'smooth' }}>
+      <SmoothCursor />
       
       {/* Navigation - Fixed Top */}
       <Navbar />
