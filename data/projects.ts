@@ -35,26 +35,27 @@ export const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: 'ABHISHEK THAKUR PORTFOLIO',
-    category: 'PROFESSIONAL PORTFOLIO',
-    tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
-    url: 'https://abhishek-trainer.vercel.app/',
-    previewImage: '/preview/2.png',
-    aim: 'Create a modern, production-ready portfolio website for a Communication Skills Trainer that showcases services, impact metrics, testimonials, and professional credentials while providing seamless contact and lead capture functionality.',
-    description: 'A polished portfolio website built for Abhishek Thakur, a Communication Skills Trainer. The site presents his professional identity through an interactive interface featuring motion-based animations, service showcases, animated statistics demonstrating measurable outcomes, and social proof through testimonials. Designed to convert prospective students, corporate clients, and academic institutions with clear CTAs and frictionless contact options.',
+    title: 'SAAS WEBSITE REDESIGN',
+    category: 'FRONTEND DEVELOPMENT',
+      tags: ['React', 'TypeScript', 'Framer Motion', 'GSAP', 'Tailwind CSS', 'Vite'],
+    url: 'https://tessa-cloud.vercel.app/',
+    previewImage: '/preview/5.png',
+    aim: 'Design and develop a modern, high-performance marketing website demo for a SaaS/AI enterprise company offering educational and business software solutions. The goal was to create an engaging digital presence that effectively showcases multiple ERP products while maintaining smooth animations and professional aesthetics throughout the user journey.',
+    description: 'A sophisticated enterprise marketing website demo for Tessa Cloud, a company specializing in AI-powered educational ERP systems and business automation solutions. The site features a dramatic animated gradient background system with customizable breathing effects, a GSAP-powered staggered menu with layer-based animations, and scroll-triggered Framer Motion animations throughout',
     features: [
-      'Dynamic hero section with motion-based entrance animations using Framer Motion',
-      'Interactive services showcase with ScrollStack presentation on desktop and tap-to-expand modals on mobile',
-      'Animated numeric metrics (NumberTicker) displaying measurable impact and outcomes',
-      'Testimonial marquee with looped, continuous social proof display',
-      'Credentials and professional background section with grid layout',
-      'Custom StaggeredMenu navigation with GSAP-powered animations',
-      'Smooth scrolling implementation using Lenis library',
-      'Responsive design with adaptive layouts for desktop and mobile',
-      'Direct lead capture via mailto links and contact CTAs',
-      'Sticky back-to-top button for improved navigation UX'
+     'Smooth menu open/close transitions with layer-based reveal effects',
+      'Product showcase sections with icon-based cards and hover transformations',
+      'Intelligent navigation handling between routes and hash-based scroll links',
+       'Responsive design with mobile-optimized layouts and interactions',
+       'Contact cards and form sections with styled components integration',
+           'Professional team member presentations with image galleries and detailed bios',
+     'Careers page with animated hero section and "We Are Hiring" badge',
+      'Mobile-optimized scroll interactions preventing scroll-hijacking',
+      'Responsive design with touch-action and overscroll-behavior optimizations',
+      'Clean, minimal aesthetic with focus on content and interactivity'
     ]
   },
+  
   {
     id: 3,
     title: 'NEOBRUTALISM LIBRARY',
@@ -94,5 +95,30 @@ export const projectsData: Project[] = [
       'Responsive design with touch-action and overscroll-behavior optimizations',
       'Clean, minimal aesthetic with focus on content and interactivity'
     ]
-  }
+  },
+
+  {
+    id: 5,
+    title: 'ABHISHEK THAKUR PORTFOLIO',
+    category: 'PROFESSIONAL PORTFOLIO',
+    tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
+    url: 'https://abhishek-trainer.vercel.app/',
+    previewImage: '/preview/2.png',
+    aim: 'Create a modern, production-ready portfolio website for a Communication Skills Trainer that showcases services, impact metrics, testimonials, and professional credentials while providing seamless contact and lead capture functionality.',
+    description: 'A polished portfolio website built for Abhishek Thakur, a Communication Skills Trainer. The site presents his professional identity through an interactive interface featuring motion-based animations, service showcases, animated statistics demonstrating measurable outcomes, and social proof through testimonials. Designed to convert prospective students, corporate clients, and academic institutions with clear CTAs and frictionless contact options.',
+    features: [
+      'Dynamic hero section with motion-based entrance animations using Framer Motion',
+      'Interactive services showcase with ScrollStack presentation on desktop and tap-to-expand modals on mobile',
+      'Animated numeric metrics (NumberTicker) displaying measurable impact and outcomes',
+      'Testimonial marquee with looped, continuous social proof display',
+      'Credentials and professional background section with grid layout',
+      'Custom StaggeredMenu navigation with GSAP-powered animations',
+      'Smooth scrolling implementation using Lenis library',
+      'Responsive design with adaptive layouts for desktop and mobile',
+      'Direct lead capture via mailto links and contact CTAs',
+      'Sticky back-to-top button for improved navigation UX'
+    ]
+  },
+
+ 
 ];

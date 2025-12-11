@@ -90,6 +90,7 @@ export function SmoothCursor({
   },
 }: SmoothCursorProps) {
   const [isMoving, setIsMoving] = useState(false)
+  const [isEnabled, setIsEnabled] = useState(false)
   const lastMousePos = useRef<Position>({ x: 0, y: 0 })
   const velocity = useRef<Position>({ x: 0, y: 0 })
   const lastUpdateTime = useRef(Date.now())
@@ -110,6 +111,16 @@ export function SmoothCursor({
   })
 
   useEffect(() => {
+    // Check if device supports hover/fine pointer and is not a touch device
+    const isFinePointer = window.matchMedia("(pointer: fine)").matches
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches
+    
+    // Don't enable cursor on touch devices or small screens
+    if (!isFinePointer || isTouchDevice || isSmallScreen) return
+
+    setIsEnabled(true)
+
     const updateVelocity = (currentPos: Position) => {
       const currentTime = Date.now()
       const deltaTime = currentTime - lastUpdateTime.current
@@ -195,6 +206,8 @@ export function SmoothCursor({
       if (rafId) cancelAnimationFrame(rafId)
     }
   }, [cursorX, cursorY, rotation, scale])
+
+  if (!isEnabled) return null
 
   return (
     <motion.div
