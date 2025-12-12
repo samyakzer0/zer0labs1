@@ -150,7 +150,7 @@ export const CaseStudy: React.FC<CaseStudyProps> = ({
                 </p>
               </div>
               <a
-                href="#contact"
+                href="mailto:samyak.sage@gmail.com"
                 className="px-8 py-4 bg-white text-black font-pixel text-xs hover:bg-cyan-400 transition-colors duration-300 whitespace-nowrap"
               >
                 GET IN TOUCH
