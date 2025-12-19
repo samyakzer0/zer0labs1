@@ -62,7 +62,7 @@ export const projectsData: Project[] = [
   "title": "LAWSETU - LEGAL OS WEBSITE",
   "category": "FRONTEND DEVELOPMENT",
   "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js", "Radix UI"],
-  "url": "https://lawsetu.com",
+  "url": "https://lawsetu.vercel.app",
   "previewImage": "/preview/6.png",
   "aim": "Design and develop a modern, conversion-focused marketing website for India's first AI-powered Legal OS. The goal was to create an immersive, interactive experience that effectively demonstrates complex legal tech workflows through familiar WhatsApp-style interfaces and engaging animations.",
   "description": "A sophisticated legal tech marketing website featuring interactive WhatsApp chat simulations, 3D gavel models, and seamless scroll-triggered animations. Built with Next.js and TypeScript, the site showcases LawSetu's capabilities through previews.",
