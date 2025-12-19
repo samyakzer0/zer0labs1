@@ -56,28 +56,8 @@ export const projectsData: Project[] = [
     ]
   },
   
- {
-  "id": 3,
-  "title": "LAWSETU - LEGAL OS WEBSITE",
-  "category": "FRONTEND DEVELOPMENT",
-  "tags": [ "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js",],
-  "url": "https://lawsetu.vercel.app",
-  "previewImage": "/preview/6.png",
-  "aim": "Design and develop a modern, conversion-focused marketing website for India's first AI-powered Legal OS. The goal was to create an immersive, interactive experience that effectively demonstrates complex legal tech workflows through familiar WhatsApp-style interfaces and engaging animations.",
-  "description": "A sophisticated legal tech marketing website featuring interactive WhatsApp chat simulations, 3D  models, and seamless scroll-triggered animations. Built with Next.js and TypeScript, the site showcases LawSetu's capabilities through previews.",
-  "features": [
-    "Animated WhatsApp-style chat interface with orchestrated message sequences and typing indicators",
-    "Three.js powered 3D gavel model with interactive rotations and lighting effects",
-    "Framer Motion scroll-triggered animations for section reveals and feature highlights",
-    "Component-based architecture using modular sections (Hero, Features, AI Assistant, eCourts)",
-    "Responsive mobile-first design optimized for legal professionals on the go",
-    "Interactive AI chat interface with suggested prompts and typing simulations",
-    "Modern design system with consistent spacing, typography, and color schemes"
-  ]
-},
-
   {
-    id: 4,
+    id: 3,
     title: 'NEOBRUTALISM LIBRARY',
     category: 'COMPONENT LIBRARY',
     tags: ['TypeScript', 'React', 'Tailwind CSS'],
@@ -95,7 +75,7 @@ export const projectsData: Project[] = [
     ]
   },
   {
-    id: 5,
+    id: 4,
     title: 'INTERACTIVE PORTFOLIO',
     category: 'PERSONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
@@ -118,7 +98,7 @@ export const projectsData: Project[] = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: 'ABHISHEK THAKUR PORTFOLIO',
     category: 'PROFESSIONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
