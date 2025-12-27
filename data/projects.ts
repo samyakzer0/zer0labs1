@@ -56,9 +56,36 @@ export const projectsData: Project[] = [
     ]
   },
   
+  {
+    id: 3,
+    title: 'SOUNDVIBE',
+    category: 'FRONTEND DEVELOPMENT',
+    tags: ['Next.js', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
+    url: 'https://soundvibe-ten.vercel.app/',
+    previewImage: '/preview/2.png',
+    aim: 'Build an impressive, interactive portfolio website for a music producer and audio engineer that showcases production expertise, past work, and services while delivering an immersive user experience through advanced animations and smooth interactions.',
+    description: 'SoundVibe is a premium portfolio website for a music producer and audio engineer, built with Next.js and enhanced with stunning animations using Framer Motion and GSAP. The platform showcases professional music production services including production, mixing, mastering, recording sessions, and upcoming video color grading and VFX services. The website features an interactive piano section for engagement, dynamic parallax scrolling effects, smooth 3D animations with Three.js, and an extensive showcase of past work with notable artists. With a modern, dark aesthetic powered by Tailwind CSS and responsive design, SoundVibe delivers a professional yet artistic presentation that captivates visitors and converts them into potential clients.',
+    features: [
+      'Interactive piano keyboard component for user engagement',
+      'Advanced parallax scrolling with GSAP for immersive hero section',
+      '3D animations and interactive cube sections using Three.js',
+      'Dynamic service showcase with image galleries and descriptions',
+      'Past work portfolio featuring artist collaborations and project details',
+      'Smooth page transitions and animations with Framer Motion',
+      'Real-time audio waveform visualizations',
+      'Client testimonials section with carousel display',
+      'Comprehensive FAQ section with accordion styling',
+      'Professional contact CTA with email integration',
+      'Logo cloud displaying associated artists and collaborators',
+      'Responsive design optimized for all devices',
+      'Modern UI/UX with dark theme and custom styling',
+      'Tone arm and vinyl record animations',
+      'Custom 3D model rendering for interactive elements'
+    ]
+  },
 
   {
-  "id": 3,
+  "id": 4,
   "title": "LAWSETU - LEGAL OS WEBSITE",
   "category": "FRONTEND DEVELOPMENT",
   "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js", "Radix UI"],
@@ -78,7 +105,7 @@ export const projectsData: Project[] = [
   ]
 },
   {
-    id: 4,
+    id: 5,
     title: 'NEOBRUTALISM LIBRARY',
     category: 'COMPONENT LIBRARY',
     tags: ['TypeScript', 'React', 'Tailwind CSS'],
@@ -96,7 +123,7 @@ export const projectsData: Project[] = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'INTERACTIVE PORTFOLIO',
     category: 'PERSONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
@@ -119,7 +146,7 @@ export const projectsData: Project[] = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: 'ABHISHEK THAKUR PORTFOLIO',
     category: 'PROFESSIONAL PORTFOLIO',
     tags: ['React', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
