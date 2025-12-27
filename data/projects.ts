@@ -62,7 +62,7 @@ export const projectsData: Project[] = [
     category: 'FRONTEND DEVELOPMENT',
     tags: ['Next.js', 'Framer Motion', 'GSAP', 'Tailwind CSS'],
     url: 'https://soundvibe-ten.vercel.app/',
-    previewImage: '/preview/2.png',
+    previewImage: '/preview/7.png',
     aim: 'Build an impressive, interactive portfolio website for a music producer and audio engineer that showcases production expertise, past work, and services while delivering an immersive user experience through advanced animations and smooth interactions.',
     description: 'SoundVibe is a premium portfolio website for a music producer and audio engineer, built with Next.js and enhanced with stunning animations using Framer Motion and GSAP. The platform showcases professional music production services including production, mixing, mastering, recording sessions, and upcoming video color grading and VFX services. The website features an interactive piano section for engagement, dynamic parallax scrolling effects, smooth 3D animations with Three.js, and an extensive showcase of past work with notable artists. With a modern, dark aesthetic powered by Tailwind CSS and responsive design, SoundVibe delivers a professional yet artistic presentation that captivates visitors and converts them into potential clients.',
     features: [
